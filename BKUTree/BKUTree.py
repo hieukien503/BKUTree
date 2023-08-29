@@ -460,6 +460,8 @@ class BKUTree(Generic[K, V]):
                 
                 return ref_root_avl.entry.val
 
+            raise RuntimeError("Key not found")
+
 
 
 
